@@ -1,0 +1,14 @@
+本文件夹包含内容：本小组所设计算法的Matlab实现
+
+其中testForQuestion3为更换模型后设计的基于蚁群启发式算法的对于第三问求解，也可以运行
+
+如何获得各个问题的结果：
+《第一问 快速求解法（基于贪婪算法）》 运行 flightAssignment_Simplified.m
+
+《第一问 综合求解法（使用更严格的禁忌约束》 运行 flightAssignment.m，对应两种禁忌策略，得到的结果近似
+
+《第一问 平衡求解法（同时考虑最小化停机坪与登机口数量）》 运行 flightAssignment_withAlpha.m
+
+《第二问》运行 flightAssignment2.m
+
+《第三问 禁忌模型（沿用一、二问）》 运行flightAssignment_backup.m 注意：由于需要考虑同解较多，运行非常缓慢
